@@ -39,3 +39,24 @@
 
 # debug information files
 *.dwo
+
+# PlatformIO các file biên dịch tạm và thư viện tải về
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Các file cấu hình của VS Code/CLion (tùy máy)
+.vscode/
+.idea/
+cmake-build-*/
+CMakeListsPrivate.txt
+CMakeCache.txt
+CMakeFiles/
+
+# File log và hệ thống
+*.log
+.DS_Store
+Thumbs.db
+
+# Nếu bạn có file chứa mật khẩu Wi-Fi/Firebase riêng
+include/secrets.h
